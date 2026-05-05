@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alunos do 3INFO3</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jfif">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Exemplos DOM</h1>
-    <p class="paragrafo">Este é um parágrafo</p>
-    <p class="paragrafo" id="paragrafo">Este é um <b>parágrafo com negrito</b></p>
-    <input type="text" id="input-nome" placeholder="Digite o seu nome">
-    <button id="bt-clique">Clique-me!</button>
+    <h1>Alunos do 3INFO3</h1>
+    <label>Insira seu nome:
+        <input id="input-nome" type="text" placeholder="Digite seu nome aqui">
+    </label>
+    <br>
+    <label>Insira seu Jogo Favorito:
+        <input id="input-jogo" type="text" placeholder="Digite seu jogo favorito aqui">
+    </label>
+    <br>
+    <label>Insira sua data de nascimento:
+        <input id="input-nascimento" type="date">
+    </label>
+    <br>
+    <button id="bt-enviar">Enviar</button>
 
+    <section id="container"></section>
+    
     <script src="JS/script.js"></script>
 </body>
 </html>
